@@ -6,9 +6,7 @@ This contains all the assignments done for the course
 The following are the questions for all the assignments.
 
 Programming Assignment 1: cpg.pl
-
 Background
-
 This program will analyze the nucleotide composition of DNA sequences.
 We will also include one dinucleotide.  A dinucleotide is a sequence of
 two nucleotides in DNA or RNA.  For example, the dinucleotide CpG occurs
@@ -111,7 +109,6 @@ If you have any questions be sure to discuss them with me during office
 hours or during class.  My advice is to start right away.
 
 Programming Assignment 2
-
 The purpose of this assignment is to functionalize your software from program 1 and to extend its capabilities. You will be testing your new program on the same test cases that we used in program 1. In order to make this assignment a little less daunting let’s break it down into a set of requisite steps.
 
 1 – Write a function, read_fasta, that is passed the name of a FASTA file and will open it and read the headers into an array @header and the sequences into an array @sequence. This function will use references to “send” the @header and @sequence array back to the user’s main program.
@@ -131,7 +128,6 @@ Call stat_fasta with this new file to write out genes_permute.fsa.
 9 – Think about how you might modify your program so that it actually generated a sequence of a somewhat arbitrary length that had the same proportions (not counts) as the original sequence.
 
 Programming Assignment 3
-
 In this programming assignment we will explore parsing a small set of PubMed records. We will use the file paraneuroplastic_syndrome_result.txt. Here is the first record in the file.
 
 
